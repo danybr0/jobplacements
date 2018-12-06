@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Jp Profile" max_length="40" name="x_299540_jp_profile" type="collection">
+        <element label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Full Name" max_length="40" name="full_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Unemployment Duration" max_length="40" name="unemployment_duration" type="glide_duration"/>
+        <element choice="1" label="Visa Status" max_length="40" name="visa_status" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
